@@ -39,7 +39,7 @@ jobs:
       
       #Deployment
     - name: Deploy to Surge
-      run: surge ./build rameez-project01-basic-reactapp.surge.sh --token ${{secrets.REACT_APP}}
+      run: surge ./build react2020-ebad.surge.sh --token ${{secrets.REACT_APP}}
     
 
     
